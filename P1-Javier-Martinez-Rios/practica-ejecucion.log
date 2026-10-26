@@ -1,0 +1,1046 @@
+EJECUCION REAL DE LA PRACTICA
+2026-10-25T19:26:35+01:00
+
+--- cell8 ---
+Directorio: /home/alumno
+Comando: date
+dom 25 oct 2026 19:26:40 CET
+Estado: 0
+
+--- cell11 ---
+Directorio: /home/alumno
+Comando: ls
+Descargas
+Documentos
+Escritorio
+FC-ALUMNO
+Imágenes
+Música
+Plantillas
+practica-ejecucion.log
+practica-ejecutar.sh
+practica-nano.py
+Público
+snap
+Untitled.ipynb
+Vídeos
+Estado: 0
+
+--- cell13 ---
+Directorio: /home/alumno
+Comando: clear
+[H[2J[3JEstado: 0
+
+--- cell14 ---
+Directorio: /home/alumno
+Comando: exit
+Estado: 0
+
+--- cell17 ---
+Directorio: /home/alumno
+Comando: cd ../..
+Estado: 0
+
+--- cell18 ---
+Directorio: /
+Comando: pwd
+/
+Estado: 0
+
+--- cell21 ---
+Directorio: /
+Comando: ls
+bin
+boot
+cdrom
+dev
+etc
+home
+lib
+lib32
+lib64
+libx32
+lost+found
+media
+mnt
+opt
+proc
+root
+run
+sbin
+snap
+srv
+swapfile
+sys
+tmp
+usr
+var
+Estado: 0
+
+--- cell24 ---
+Directorio: /
+Comando: cd home
+Estado: 0
+
+--- cell25 ---
+Directorio: /home
+Comando: pwd
+/home
+Estado: 0
+
+--- cell28 ---
+Directorio: /home
+Comando: ls
+alumno
+Estado: 0
+
+--- cell31 ---
+Directorio: /home
+Comando: cd ..
+Estado: 0
+
+--- cell33 ---
+Directorio: /
+Comando: cd home
+Estado: 0
+
+--- cell35 ---
+Directorio: /home
+Comando: cd alumno
+Estado: 0
+
+--- cell36 ---
+Directorio: /home/alumno
+Comando: pwd
+/home/alumno
+Estado: 0
+
+--- cell38 ---
+Directorio: /home/alumno
+Comando: ls
+Descargas
+Documentos
+Escritorio
+FC-ALUMNO
+Imágenes
+Música
+Plantillas
+practica-ejecucion.log
+practica-ejecutar.sh
+practica-nano.py
+Público
+snap
+Untitled.ipynb
+Vídeos
+Estado: 0
+
+--- cell41 ---
+Directorio: /home/alumno
+Comando: cd ../..
+Estado: 0
+
+--- cell42 ---
+Directorio: /
+Comando: pwd
+/
+Estado: 0
+
+--- cell45 ---
+Directorio: /
+Comando: cd -
+/home/alumno
+Estado: 0
+
+--- cell47 ---
+Directorio: /home/alumno
+Comando: pwd
+/home/alumno
+Estado: 0
+
+--- cell50 ---
+Directorio: /home/alumno
+Comando: cd
+Estado: 0
+
+--- cell53 ---
+Directorio: /home/alumno
+Comando: cd ../..
+Estado: 0
+
+--- cell55 ---
+Directorio: /
+Comando: cd etc
+Estado: 0
+
+--- cell56 ---
+Directorio: /etc
+Comando: pwd
+/etc
+Estado: 0
+
+--- cell59 ---
+Directorio: /etc
+Comando: cd ..
+Estado: 0
+
+--- cell62 ---
+Directorio: /
+Comando: cd .
+Estado: 0
+
+--- cell64 ---
+Directorio: /
+Comando: cd ./etc
+Estado: 0
+
+--- cell66 ---
+Directorio: /etc
+Comando: cd ../home/alumno
+Estado: 0
+
+--- cell68 ---
+Directorio: /home/alumno
+Comando: cd etc
+/home/alumno/practica-ejecutar.sh: línea 16: cd: etc: No existe el archivo o el directorio
+Estado: 1
+
+--- cell71 ---
+Directorio: /home/alumno
+Comando: cd -
+/etc
+Estado: 0
+
+--- cell73 ---
+Directorio: /etc
+Comando: cd ../home/alumno/Documentos
+Estado: 0
+
+--- cell74 ---
+Directorio: /home/alumno/Documentos
+Comando: pwd
+/home/alumno/Documentos
+Estado: 0
+
+--- cell78 ---
+Directorio: /home/alumno/Documentos
+Comando: ls -a ..
+.
+..
+.bash_history
+.bash_logout
+.bashrc
+.cache
+.config
+Descargas
+Documentos
+Escritorio
+FC-ALUMNO
+.gitconfig
+.gnupg
+Imágenes
+.ipynb_checkpoints
+.ipython
+.jupyter
+.lesshst
+.local
+Música
+Plantillas
+practica-ejecucion.log
+practica-ejecutar.sh
+practica-nano.py
+.profile
+Público
+snap
+.ssh
+.sudo_as_admin_successful
+Untitled.ipynb
+.vboxclient-clipboard.pid
+.vboxclient-display-svga-x11.pid
+.vboxclient-draganddrop.pid
+.vboxclient-seamless.pid
+Vídeos
+Estado: 0
+
+--- cell83 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo
+Comando: cd nano
+Estado: 0
+
+--- cell84 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/nano
+Comando: ls -a
+.
+..
+AUTHORS
+autogen.sh
+ChangeLog
+ChangeLog.1999-2006
+ChangeLog.2007-2015
+configure.ac
+COPYING
+COPYING.DOC
+doc
+.github
+.gitignore
+IMPROVEMENTS
+m4
+Makefile.am
+nano-regress
+NEWS
+po
+README
+README.hacking
+roll-a-release.sh
+src
+syntax
+THANKS
+TODO
+Estado: 0
+
+--- cell86 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/nano
+Comando: nano doc/faq.html
+Primera línea guardada con nano: Hola mundo<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+Traceback (most recent call last):
+  File "/home/alumno/practica-nano.py", line 24, in <module>
+    assert first == "Hola mundo"
+AssertionError
+Estado: 1
+
+--- cell86 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/nano
+Comando: nano doc/faq.html
+Primera línea guardada con nano: Hola mundo
+Estado: 0
+
+--- cell87 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/nano
+Comando: cd ../sample_files
+Estado: 0
+
+--- cell88 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cd document/txt
+Estado: 0
+
+--- cell89 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/document/txt
+Comando: cp sample1.txt copia_sample1.txt
+Estado: 0
+
+--- cell90 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/document/txt
+Comando: ls ../pdf
+file-example_PDF_1MB.pdf
+file-example_PDF_500_kB.pdf
+file-sample_150kB.pdf
+sample1.pdf
+sample2.pdf
+sample3.pdf
+Estado: 0
+
+--- cell92 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/document/txt
+Comando: ls -l ../xls
+total 888
+-rw-rw-r-- 1 alumno alumno 140288 sep  7  2023 file_example_XLS_1000.xls
+-rw-rw-r-- 1 alumno alumno  20480 sep  7  2023 file_example_XLS_100.xls
+-rw-rw-r-- 1 alumno alumno   8704 sep  7  2023 file_example_XLS_10.xls
+-rw-rw-r-- 1 alumno alumno 672256 sep  7  2023 file_example_XLS_5000.xls
+-rw-rw-r-- 1 alumno alumno  13824 sep  7  2023 file_example_XLS_50.xls
+-rw-rw-r-- 1 alumno alumno  16384 sep  7  2023 sample1.xls
+-rw-rw-r-- 1 alumno alumno   7168 sep  7  2023 sample2.xls
+-rw-rw-r-- 1 alumno alumno  13312 sep  7  2023 sample3.xls
+Estado: 0
+
+--- cell94 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/document/txt
+Comando: cd -
+/home/alumno/Descargas/ficheros_ejemplo/sample_files
+Estado: 0
+
+--- cell95 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: pwd
+/home/alumno/Descargas/ficheros_ejemplo/sample_files
+Estado: 0
+
+--- cell97 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cd image/jpg
+Estado: 0
+
+--- cell98 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/image/jpg
+Comando: ls ../png
+animal_pattern.png
+assorted_houses.png
+baran_skull.png
+barbeshop_item_silhouettes.png
+buldog_cartoon.png
+burger.png
+butterflies_shaped_leaves.png
+cherry_blossom_tree.png
+cosmos_rocket_cartoon.png
+digital_camera.png
+face_mask.png
+gear_clock.png
+iconic_london_landmark.png
+koi_fish.png
+oil_towers.png
+pink_coffee_mug.png
+rose.png
+stegosaurus.png
+vintage_bmw_car.png
+wheat_silhouette.png
+Estado: 0
+
+--- cell100 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/image/jpg
+Comando: ls ../../video/mp4
+astronaut_flying_fantasy.mp4
+birds_on_branch.mp4
+cheetah_strolling.mp4
+cherry_flower_blossom.mp4
+city_forest_rainbow.mp4
+cliff_waterfall.mp4
+coffee_beans.mp4
+couple_jogging.mp4
+desert.mp4
+dogs_playing.mp4
+kayak_surfing_ocean.mp4
+magnolia_flower_blossom.mp4
+morning_fog.mp4
+mountain_sky.mp4
+neon_subscribe_sign.mp4
+plum_flower_blossom.mp4
+puppy_running.mp4
+seoul_street_night_light.mp4
+seoul_traffic_car.mp4
+stary_sky.mp4
+Estado: 0
+
+--- cell102 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/image/jpg
+Comando: cd ../../..
+Estado: 0
+
+--- cell103 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo
+Comando: pwd
+/home/alumno/Descargas/ficheros_ejemplo
+Estado: 0
+
+--- cell105 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo
+Comando: mkdir prac1
+Estado: 0
+
+--- cell106 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo
+Comando: cd prac1
+Estado: 0
+
+--- cell107 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/prac1
+Comando: touch fichero.txt
+Estado: 0
+
+--- cell108 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/prac1
+Comando: ls -l fichero.txt
+-rw-rw-r-- 1 alumno alumno 0 oct 25 19:27 fichero.txt
+Estado: 0
+
+--- cell110 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/prac1
+Comando: cd ../../..
+Estado: 0
+
+--- cell111 ---
+Directorio: /home/alumno
+Comando: cp Descargas/ficheros_ejemplo/prac1/fichero.txt .
+Estado: 0
+
+--- cell112 ---
+Directorio: /home/alumno
+Comando: rm -r Descargas/ficheros_ejemplo/prac1
+Estado: 0
+
+--- cell115 ---
+Directorio: /home/alumno
+Comando: cd Descargas/ficheros_ejemplo/sample_files/image
+Estado: 0
+
+--- cell116 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/image
+Comando: ls jpg/???????.jpg
+jpg/bitcoin.jpg
+Estado: 0
+
+--- cell118 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/image
+Comando: ls jpg/*le*
+jpg/assorted_pebble_rocks.jpg
+jpg/eagle_closeup.jpg
+jpg/elephants.jpg
+jpg/lemon_patern_wallpaper.jpg
+Estado: 0
+
+--- cell120 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/image
+Comando: ls jpg/??sort*
+jpg/assorted_colour_laser_light.jpg
+jpg/assorted_pebble_rocks.jpg
+Estado: 0
+
+--- cell122 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/image
+Comando: ls jpg/[!b-t]*
+jpg/assorted_colour_laser_light.jpg
+jpg/assorted_pebble_rocks.jpg
+jpg/waterfall_long_exposure_2.jpg
+jpg/waterfall_long_exposure.jpg
+jpg/yorkshire_terrier_dog.jpg
+Estado: 0
+
+--- cell124 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/image
+Comando: ls */*[0-9]*
+jpg/waterfall_long_exposure_2.jpg
+Estado: 0
+
+--- cell126 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/image
+Comando: ls */*{fall,bri}*[gf]
+jpg/waterfall_long_exposure_2.jpg
+jpg/waterfall_long_exposure.jpg
+tiff/london_bridge.tiff
+tiff/rolled_fabric_stack.tiff
+Estado: 0
+
+--- cell128 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files/image
+Comando: cd ..
+Estado: 0
+
+--- cell129 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls
+audio
+document
+image
+LICENSE
+README.md
+video
+Estado: 0
+
+--- cell131 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp -r document docu
+Estado: 0
+
+--- cell132 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls docu/{txt,rtf,xls}
+docu/rtf:
+file-sample_100kB.rtf
+file-sample_1MB.rtf
+file-sample_300kB.rtf
+file-sample_500kB.rtf
+
+docu/txt:
+copia_sample1.txt
+sample1.txt
+sample2.txt
+sample3.txt
+
+docu/xls:
+file_example_XLS_1000.xls
+file_example_XLS_100.xls
+file_example_XLS_10.xls
+file_example_XLS_5000.xls
+file_example_XLS_50.xls
+sample1.xls
+sample2.xls
+sample3.xls
+Estado: 0
+
+--- cell134 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: mkdir samples{1..4}
+Estado: 0
+
+--- cell135 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp docu/txt/sample1.txt samples1/
+Estado: 0
+
+--- cell136 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp docu/txt/sample2.txt samples1/ejemplo2.txt
+Estado: 0
+
+--- cell137 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: mv docu/txt/sample3.txt samples1/ejemplo3.txt
+Estado: 0
+
+--- cell138 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: mv docu/rtf/*sample* samples1/
+Estado: 0
+
+--- cell139 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls samples1
+ejemplo2.txt
+ejemplo3.txt
+file-sample_100kB.rtf
+file-sample_1MB.rtf
+file-sample_300kB.rtf
+file-sample_500kB.rtf
+sample1.txt
+Estado: 0
+
+--- cell141 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: rm samples1/*[0-9][0-9]*
+Estado: 0
+
+--- cell142 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls samples1
+ejemplo2.txt
+ejemplo3.txt
+file-sample_1MB.rtf
+sample1.txt
+Estado: 0
+
+--- cell144 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp docu/xls/f*.xls samples2/
+Estado: 0
+
+--- cell145 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls samples2
+file_example_XLS_1000.xls
+file_example_XLS_100.xls
+file_example_XLS_10.xls
+file_example_XLS_5000.xls
+file_example_XLS_50.xls
+Estado: 0
+
+--- cell147 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp samples1/* samples2/
+Estado: 0
+
+--- cell148 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls samples2
+ejemplo2.txt
+ejemplo3.txt
+file_example_XLS_1000.xls
+file_example_XLS_100.xls
+file_example_XLS_10.xls
+file_example_XLS_5000.xls
+file_example_XLS_50.xls
+file-sample_1MB.rtf
+sample1.txt
+Estado: 0
+
+--- cell150 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: mv samples2/file_example_XLS_100.xls samples2/ejemplo_100.xls
+Estado: 0
+
+--- cell151 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: rm samples2/*{sample,example}*
+Estado: 0
+
+--- cell152 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls samples2
+ejemplo_100.xls
+ejemplo2.txt
+ejemplo3.txt
+Estado: 0
+
+--- cell154 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp docu/*/sample* samples3/
+Estado: 0
+
+--- cell155 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls samples3
+sample1.doc
+sample1.docx
+sample1.pdf
+sample1.txt
+sample1.xls
+sample1.xlsx
+sample2.doc
+sample2.docx
+sample2.pdf
+sample2.txt
+sample2.xls
+sample2.xlsx
+sample3.docx
+sample3.pdf
+sample3.xls
+sample3.xlsx
+sample4.docx
+Estado: 0
+
+--- cell157 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: rm samples3/*[xf]*
+Estado: 0
+
+--- cell158 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls samples3
+sample1.doc
+sample2.doc
+Estado: 0
+
+--- cell160 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp docu/*/*{pdf,doc} samples4/
+Estado: 0
+
+--- cell161 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls samples4
+file-example_PDF_1MB.pdf
+file-example_PDF_500_kB.pdf
+file-sample_100kB.doc
+file-sample_150kB.pdf
+file-sample_1MB.doc
+file-sample_500kB.doc
+sample1.doc
+sample1.pdf
+sample2.doc
+sample2.pdf
+sample3.pdf
+Estado: 0
+
+--- cell163 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp docu/{docx,xlsx}/sample* samples4/
+Estado: 0
+
+--- cell164 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls samples4
+file-example_PDF_1MB.pdf
+file-example_PDF_500_kB.pdf
+file-sample_100kB.doc
+file-sample_150kB.pdf
+file-sample_1MB.doc
+file-sample_500kB.doc
+sample1.doc
+sample1.docx
+sample1.pdf
+sample1.xlsx
+sample2.doc
+sample2.docx
+sample2.pdf
+sample2.xlsx
+sample3.docx
+sample3.pdf
+sample3.xlsx
+sample4.docx
+Estado: 0
+
+--- cell166 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: rm samples4/*[0-3]*docx
+Estado: 0
+
+--- cell167 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls samples4/*.docx
+samples4/sample4.docx
+Estado: 0
+
+--- cell169 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: mv samples4/*[0-9][a-zA-Z]* ..
+Estado: 0
+
+--- cell170 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls ../file*
+../file-example_PDF_1MB.pdf
+../file-sample_100kB.doc
+../file-sample_150kB.pdf
+../file-sample_1MB.doc
+../file-sample_500kB.doc
+Estado: 0
+
+--- cell172 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls ../nano/src
+browser.c
+chars.c
+color.c
+cut.c
+definitions.h
+files.c
+global.c
+help.c
+history.c
+Makefile.am
+move.c
+nano.c
+prompt.c
+prototypes.h
+rcfile.c
+search.c
+text.c
+utils.c
+winio.c
+Estado: 0
+
+--- cell174 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: mkdir source
+Estado: 0
+
+--- cell175 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp ../nano/src/*.h source/
+Estado: 0
+
+--- cell176 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls source
+definitions.h
+prototypes.h
+Estado: 0
+
+--- cell178 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp ../nano/src/c[aeiou]* source/
+Estado: 0
+
+--- cell179 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls source
+color.c
+cut.c
+definitions.h
+prototypes.h
+Estado: 0
+
+--- cell181 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp ../nano/src/*{to,pro}*.c source/
+Estado: 0
+
+--- cell182 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls source
+color.c
+cut.c
+definitions.h
+history.c
+prompt.c
+prototypes.h
+Estado: 0
+
+--- cell183 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cd .
+Estado: 0
+
+--- cell184 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: cp -r video video-backup
+Estado: 0
+
+--- cell185 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: mv video/mp4/c* video/
+Estado: 0
+
+--- cell186 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: rm video/*in*
+Estado: 0
+
+--- cell189 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: ls -lh video/cliff_waterfall.mp4
+-rw-rw-r-- 1 alumno alumno 1,3M sep  7  2023 video/cliff_waterfall.mp4
+Estado: 0
+
+--- cell193 ---
+Directorio: /home/alumno/Descargas/ficheros_ejemplo/sample_files
+Comando: mv video-backup misvideos
+Estado: 0
+
+--- cell197 ---
+Directorio: /home/alumno
+Comando: git config --global user.name "Javier Martínez Ríos"
+Estado: 0
+
+--- cell198 ---
+Directorio: /home/alumno
+Comando: git config --global user.email "javier.martinez8@edu.upct.es"
+Estado: 0
+
+--- cell199 ---
+Directorio: /home/alumno
+Comando: cat .gitconfig
+[user]
+	email = javier.martinez8@edu.upct.es
+	name = Javier Martínez Ríos
+Estado: 0
+
+--- cell201 ---
+Directorio: /home/alumno
+Comando: mkdir mydir
+Estado: 0
+
+--- cell202 ---
+Directorio: /home/alumno
+Comando: cd mydir
+Estado: 0
+
+--- cell203 ---
+Directorio: /home/alumno/mydir
+Comando: git init
+ayuda: Usando 'master' como el nombre de la rama inicial. Este nombre de rama predeterminado
+ayuda: está sujeto a cambios. Para configurar el nombre de la rama inicial para usar en todos
+ayuda: de sus nuevos repositorios, reprimiendo esta advertencia, llama a:
+ayuda: 
+ayuda: 	git config --global init.defaultBranch <nombre>
+ayuda: 
+ayuda: Los nombres comúnmente elegidos en lugar de 'master' son 'main', 'trunk' y
+ayuda: 'development'. Se puede cambiar el nombre de la rama recién creada mediante este comando:
+ayuda: 
+ayuda: 	git branch -m <nombre>
+Inicializado repositorio Git vacío en /home/alumno/mydir/.git/
+Estado: 0
+
+--- cell205 ---
+Directorio: /home/alumno/mydir
+Comando: echo 'LISTA DE COMANDOS DE GIT' > git-commands
+Estado: 0
+
+--- cell206 ---
+Directorio: /home/alumno/mydir
+Comando: cat git-commands
+LISTA DE COMANDOS DE GIT
+Estado: 0
+
+--- cell208 ---
+Directorio: /home/alumno/mydir
+Comando: git status
+En la rama master
+
+No hay commits todavía
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	git-commands
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+Estado: 0
+
+--- cell210 ---
+Directorio: /home/alumno/mydir
+Comando: git add git-commands
+Estado: 0
+
+--- cell211 ---
+Directorio: /home/alumno/mydir
+Comando: git status
+En la rama master
+
+No hay commits todavía
+
+Cambios a ser confirmados:
+  (usa "git rm --cached <archivo>..." para sacar del área de stage)
+	nuevos archivos: git-commands
+
+Estado: 0
+
+--- cell213 ---
+Directorio: /home/alumno/mydir
+Comando: git commit -m "Añadiendo fichero con lista de comandos"
+[master (commit-raíz) 55f49be] Añadiendo fichero con lista de comandos
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git-commands
+Estado: 0
+
+--- cell215 ---
+Directorio: /home/alumno/mydir
+Comando: git log
+commit 55f49bebf809b454d05cd7d56d00f234ba05697e
+Author: Javier Martínez Ríos <javier.martinez8@edu.upct.es>
+Date:   Sun Oct 25 19:27:15 2026 +0100
+
+    Añadiendo fichero con lista de comandos
+Estado: 0
+
+--- cell217 ---
+Directorio: /home/alumno/mydir
+Comando: echo 'git init: Para crear un repo vacío' >> git-commands; echo 'git add: Para añadir cambios al índice (stage)' >> git-commands; echo 'git commit: Para confirmar los cambios' >> git-commands
+Estado: 0
+
+--- cell218 ---
+Directorio: /home/alumno/mydir
+Comando: cat git-commands
+LISTA DE COMANDOS DE GIT
+git init: Para crear un repo vacío
+git add: Para añadir cambios al índice (stage)
+git commit: Para confirmar los cambios
+Estado: 0
+
+--- cell220 ---
+Directorio: /home/alumno/mydir
+Comando: git diff HEAD -- git-commands
+diff --git a/git-commands b/git-commands
+index 5b28c00..9451c78 100644
+--- a/git-commands
++++ b/git-commands
+@@ -1 +1,4 @@
+ LISTA DE COMANDOS DE GIT
++git init: Para crear un repo vacío
++git add: Para añadir cambios al índice (stage)
++git commit: Para confirmar los cambios
+Estado: 0
+
+--- cell222 ---
+Directorio: /home/alumno/mydir
+Comando: git add git-commands
+Estado: 0
+
+--- cell223 ---
+Directorio: /home/alumno/mydir
+Comando: git diff
+Estado: 0
+
+--- cell226 ---
+Directorio: /home/alumno/mydir
+Comando: git diff --cached
+diff --git a/git-commands b/git-commands
+index 5b28c00..9451c78 100644
+--- a/git-commands
++++ b/git-commands
+@@ -1 +1,4 @@
+ LISTA DE COMANDOS DE GIT
++git init: Para crear un repo vacío
++git add: Para añadir cambios al índice (stage)
++git commit: Para confirmar los cambios
+Estado: 0
+
+FIN CORRECTO
+M  git-commands
