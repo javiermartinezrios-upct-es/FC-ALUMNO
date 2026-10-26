@@ -1,4 +1,0 @@
-LISTA DE COMANDOS DE GIT
-git init: Para crear un repo vacío
-git add: Para añadir cambios al índice (stage)
-git commit: Para confirmar los cambios
